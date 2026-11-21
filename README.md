@@ -24,7 +24,7 @@ Each pipeline writes its best checkpoint, fixed split CSVs, metrics JSON, confus
 ## Design
 Speech: mono 16 kHz audio, silence trimming, log-Mel spectrogram (64 mel bins), compact 1D convolutional encoder and classifier. Text: token embeddings and bidirectional GRU. Fusion: concatenate 128-dimensional audio and 192-dimensional text representations, followed by an MLP classifier. Validation loss with early stopping selects the checkpoint. Test data is used only for final evaluation.
 
-## Important evaluation caveat
+## Important evaluation 
 TESS is a small, acted corpus from two speakers; examples share lexical content and recording conditions. A random file-level split can place repetitions of the same speaker/word in both train and test, so it estimates performance on this corpus rather than robust unseen-speaker generalization. A speaker-held-out check is desirable, but with two speakers it has only two folds and is unstable. Text-only results may be weak because the transcript is repeated across emotions and emotional prosody is absent from text
 
 ## Results/report
