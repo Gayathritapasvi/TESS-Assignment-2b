@@ -1,0 +1,3 @@
+path,label,text,speaker_prefix,utterance,true_label,predicted_label
+data/OAF_disgust/OAF_thought_disgust.wav,disgust,say the word thought,OAF,thought,disgust,ps
+data/OAF_Pleasant_surprise/OAF_hall_ps.wav,ps,say the word hall,OAF,hall,ps,happy

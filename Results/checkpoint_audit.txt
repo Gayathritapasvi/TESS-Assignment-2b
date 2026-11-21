@@ -1,0 +1,4 @@
+Metrics, error CSVs, and confusion matrices were regenerated from the included checkpoints. SHA-256:
+- Speech: `96d6cf4ec6d2963a410edd368d989353024d5407957ccd6f608ba6d449caa072`
+- Text: `610382f9cc4016f1903d2aa26a00b8c5b6b1543d966d3692ecff82b8c3f6cf4c`
+- Fusion: `be1fdc3139fc2662561adc98af468acae5e2b4794b5cb09d3c355f8ae7a6f30a`
